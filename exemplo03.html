@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h1{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(171, 121, 204);
+        }
+
+        label{
+            color: rgb(171, 121, 204); 
+            font-size: 20px;
+            
+        }
+
+        button{
+            margin: 10px;
+            background-color: rgb(224, 162, 253);
+            height: 30px;
+            width: 175px;
+            border-radius: 8px;
+            color: rgb(104, 38, 131);
+            border: 2px solid rgb(104, 38, 131);
+            
+        }
+
+        h3{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            width: 90px;
+            font-size: 20px;
+            color: rgb(104, 38, 131)
+        }
+
+        input{
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            height: 20px;
+            border: 2px solid rgb(104, 38, 131);
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <script src="funcoes.js" defer></script>
+
+    <h1>Projeto Soma</h1>
+
+        <hr>
+        <label>Valor 01:</label>
+        <input type="text" id="n1">
+        <br>
+        <label> Valor 02: </label>
+        <input type="text" id="n2">
+        <br>
+        <button onclick="calcularSoma()">Calcular</button>
+
+    <hr>
+    <h3>Total: <i id="resultado"></i></h3>
+</body>
+</html>
